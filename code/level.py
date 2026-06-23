@@ -3,8 +3,8 @@
 
 class Level:
     def __init__(self):
-        self.janela = None
-        self.nome = None
+        self.window = None
+        self.name = None
         self.entity_list = None
         self.entity_list = None
 

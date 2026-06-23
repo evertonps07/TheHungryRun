@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 
 class Menu:
-    def __init__(self):
-        self.janela = None
-        self.fonte = None
+    def __init__(self, window):
+        self.window = window
+        self.font = None
 
     def run(self, ):
         pass
