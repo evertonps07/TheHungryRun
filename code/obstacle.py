@@ -5,7 +5,6 @@ from code.const import (
     SIZE_PTERODATILO, SIZE_ESTEGOSSAURO, SIZE_PEDRA, SIZE_CARNE
 )
 
-
 class Obstacle(pygame.sprite.Sprite):
     def __init__(self, window, extra):
         super().__init__()

@@ -9,7 +9,6 @@ from code.const import (
     ASSET_SCORE_BG, ASSET_SCORE_BGM, MUSIC_VOLUME, DB_NAME, DEFAULT_PLAYER_NAME
 )
 
-
 def desenhar_texto_destacado(surface, texto, fonte, cor, pos):
     # Desenha o texto duplicado com um pequeno deslocamento (offset) para criar efeito de sombra e leitura estável
     sombra = fonte.render(texto, True, C_BLACK)
@@ -21,7 +20,6 @@ def desenhar_texto_destacado(surface, texto, fonte, cor, pos):
 
     surface.blit(sombra, (offset_x + SHADOW_OFFSET, offset_y + SHADOW_OFFSET))
     surface.blit(real, (offset_x, offset_y))
-
 
 class ScoreManager:
     def __init__(self):

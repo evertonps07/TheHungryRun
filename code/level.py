@@ -13,7 +13,6 @@ from code.const import (
     ASSET_WIN_BG, ASSET_LOSE_BG
 )
 
-
 class Level:
     def __init__(self, window, game_ref=None, recorde=0):
         self.window = window

@@ -5,7 +5,6 @@ from code.level import Level
 from code.score import ScoreManager
 from code.const import WIN_WIDTH, WIN_HEIGHT, WIN_TITLE, RETURN_START, RETURN_SCORE
 
-
 class Game:
     def __init__(self):
         pygame.init()

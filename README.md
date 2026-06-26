@@ -17,13 +17,13 @@ O **The Hungry Run** é um jogo arcade 2D desenvolvido em Python utilizando a bi
 
 Para guiar o T-Rex pelo deserto, utilize os seguintes comandos do teclado:
 
-|  Tecla   | Ação dentro do Jogo                        |
-|:--------:|--------------------------------------------|
-| `ESPAÇO` | Faz o dinossauro **Pular** os cactos.      |
-| `SHIFT`  | Faz o dinossauro **Pular** os cactos.      |
-| `ENTER`  | Inicia o jogo (no menu) ou confirma ações. |
-| `SETAS`  | Escolhe as opcões do menu .                |
-|   `P`    | Pausa o jogo                               |
+|  Tecla   | Ação dentro do Jogo                              |
+|:--------:|--------------------------------------------------|
+| `ESPAÇO` | Faz o dinossauro **Pular** os obstáculos.        |
+| `SHIFT`  | Faz o dinossauro **acelerar** e pular mais alto. |
+| `ENTER`  | Inicia o jogo (no menu) ou confirma ações.       |
+| `SETAS`  | Escolhe as opcões do menu .                      |
+|   `P`    | Pausa o jogo                                     |
 
 ---
 

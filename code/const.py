@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
-# ==========================================
+
 # CONFIGURAÇÕES GERAIS DO JOGO (CONSTANTES)
-# ==========================================
 
 # A - Caminhos de Assets
 ASSET_FOLDER = "asset/"
@@ -9,8 +8,10 @@ ASSET_BG_LAYER1 = "asset/deserto01.jpeg"
 ASSET_BG_LAYER2 = "asset/deserto02.jpeg"
 ASSET_MENU_BG = "asset/imagemmenu.jpeg"
 ASSET_SCORE_BG = "asset/deserto03.jpeg"
+ASSET_HELP_BG = "asset/deserto03.jpeg"
 ASSET_MENU_BGM = "asset/MenuDin.mp3"
 ASSET_SCORE_BGM = "asset/MenuDin.mp3"
+ASSET_HELP_BGM = "asset/MenuDin.mp3"
 ASSET_WIN_BG = "asset/TRexVitoria1.jpeg"
 ASSET_LOSE_BG = "asset/TRexDerrota1.jpeg"
 ASSET_STAGE_BGM = "asset/fase1.mp3"
@@ -100,9 +101,14 @@ PLAYER_FLOOR_Y = 400
 # R - Retornos de Fluxo (Estados do Jogo)
 RETURN_START = "Iniciar"
 RETURN_SCORE = "Score"
+RETURN_START = "START"
+RETURN_SCORE = "SCORE"
+RETURN_HELP = "HELP"
+RETURN_EXIT = "EXIT"
 
 # T - Dimensões da Tela e Configurações Globais
 WIN_TITLE = "The Hungry Run"
 WIN_WIDTH = 800
 WIN_HEIGHT = 600
 MUSIC_VOLUME = 0.5
+
