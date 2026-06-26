@@ -90,7 +90,10 @@ class Menu:
                 ("SETAS", "Escolhe as opções do menu."),
                 ("P", "Pausa o jogo a qualquer momento."),
                 ("", ""),
-                ("OBJETIVO:", "Sobreviva o maior TEMPO vivo para pegar a carne!")
+                ("OBJETIVO:", "Sobreviva o maior TEMPO vivo para pegar a carne!"),
+                ("", ""),
+                ("ATIVIDADE PRÁTICA UNINTER:","" ),
+                ("Everton Palhares - RU:524565", "")
             ]
 
             y_pos = 180
