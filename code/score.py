@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
+import sys
 import pygame
-import os
 import sqlite3
 from datetime import datetime
 from code.const import (
@@ -145,7 +145,7 @@ class ScoreManager:
                 if event.type == pygame.QUIT:
                     pygame.mixer.music.stop()
                     pygame.quit()
-                    quit()
+                    sys.exit()
                 if event.type == pygame.KEYDOWN:
                     if event.key in [pygame.K_RETURN, pygame.K_ESCAPE]:
                         pygame.mixer.music.stop()
