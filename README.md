@@ -1,7 +1,7 @@
 # <img alt="TRex" height="60" src="asset/TRex1.png" width="80"/> The Hungry Run
 
  ### Sobre 
-O **The Hungry Run** é um jogo arcade 2D desenvolvido em Python utilizando a biblioteca **Pygame**. O objetivo do jogo é controlar um dinossauro (T-Rex) sobrevivendo pelo maior tempo possível e registrando os melhores tempos em um ranking local.
+O **The Hungry Run** é um jogo arcade 2D desenvolvido em Python utilizando a biblioteca **Pygame**. O objetivo do jogo é controlar um dinossauro (T-Rex) sobrevivendo pelo menor tempo possível e registrando os melhores tempos em um ranking local.
 
 ---
 
@@ -22,7 +22,7 @@ Para guiar o T-Rex pelo deserto, utilize os seguintes comandos do teclado:
 | `ESPAÇO` | Faz o dinossauro **Pular** os obstáculos.        |
 | `SHIFT`  | Faz o dinossauro **acelerar** e pular mais alto. |
 | `ENTER`  | Inicia o jogo (no menu) ou confirma ações.       |
-| `SETAS`  | Escolhe as opcões do menu .                      |
+| `SETAS`  | Escolhe as opções do menu .                      |
 |   `P`    | Pausa o jogo                                     |
 
 ---
